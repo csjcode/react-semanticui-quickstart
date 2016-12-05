@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Button, Container, Header, Image, List, Icon, Label, Menu, Table, Segment, Grid, Card } from 'semantic-ui-react';
+import { Button, Container, Header, Image, List, Icon, Label, Table, Segment, Grid, Card, Menu } from 'semantic-ui-react';
+import MenuExampleInverted from './Navbar';
 import './App.css';
 
 const SegmentExampleInverted = () => (
@@ -220,11 +221,16 @@ const GridExampleDividedNumber = () => (
 )
 
 
+
+
+
 class App extends Component {
   render() {
     return (
       <div className="App">
+
         <div className="App-header">
+          <MenuExampleInverted />
           <SegmentExampleInverted />
         </div>
         <p className="App-intro">
